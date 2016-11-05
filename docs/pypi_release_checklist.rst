@@ -24,12 +24,6 @@ For Every Release
         git add HISTORY.rst
         git commit -m "Changelog for upcoming release 0.1.1."
 
-#. Update version number (can also be patch or major)
-
-    .. code-block:: bash
-
-        bumpversion minor
-
 #. Install the package again for local development, but with the new version number:
 
     .. code-block:: bash
